@@ -21,6 +21,7 @@
                         <h1>${title}<small> crud operations</small></h1>
                     </div>
                 </div>
+
                 <div class="alert alert-info" role="alert">
                     <a class="btn btn-primary" role="button" href="/${instrument}/pdfReport?view=pdfView" target="_blank">Download PDF report</a>
                     <a class="btn btn-primary" role="button" href="/${instrument}/xlsxReport.xlsx?view=excelView" target="_blank">Download Excel report</a>
@@ -55,7 +56,6 @@
                         </table>
                         <div class="panel-footer"><a class="btn btn-info" role="button" href="/${instrument}/newBrand">Add new brand &raquo</a></div>
                     </div>
-                    ​
                     <div class="panel panel-info">
                         <!-- Default panel contents -->
                         <div class="panel-heading">
@@ -87,7 +87,6 @@
                                         &nbsp;&nbsp;&nbsp;&nbsp;
                                         <a href="/${instrument}/delete-model/${model.idModel}">Delete</a>
                                     </td>
-                                    ​
                                 </tr>
                             </c:forEach>
                             </tbody>
